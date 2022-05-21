@@ -19,7 +19,8 @@
   "keywords": [
     "gen",
     "gen-file",
-    "cli"
+    "cli",
+    "gen-file-cli"
   ],
   "author": {
     "name": "xiaojun",
