@@ -2,13 +2,13 @@
   quickly create template files
 
 ## Install
-```js
-  npm i gen-file-cli -D
+```bash
+  npm install gen-file-cli -g
 ```
 
 ## Usage
-```js
-  npx gen-file-cli salesMange salesOrder '销售订单'
+```shell
+  gen-file salesMange salesOrder '销售订单'
 ```
 
 ## Samlpe `genfile.js`
