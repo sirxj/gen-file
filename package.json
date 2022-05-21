@@ -1,0 +1,42 @@
+{
+  "name": "gen-file",
+  "version": "0.0.1",
+  "description": "quickly generator template files",
+  "main": "./dist/index.js",
+  "bin": {
+    "gen-file": "./bin/gen-file.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "gen": "node ./bin/gen-file.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gen",
+    "gen-file",
+    "cli"
+  ],
+  "author": {
+    "name": "xiaojun",
+    "email": "sir_xj@163.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "chalk": "^4.1.2",
+    "json-templater": "^1.2.0",
+    "uppercamelcase": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
