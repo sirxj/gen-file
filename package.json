@@ -1,5 +1,5 @@
 {
-  "name": "gen-file",
+  "name": "gen-file-cli",
   "version": "0.0.1",
   "description": "quickly generator template files",
   "main": "./dist/index.js",
@@ -10,6 +10,7 @@
     "bin",
     "dist"
   ],
+  "homepage": "https://github.com/sirxj/gen-file",
   "scripts": {
     "build": "webpack",
     "gen": "node ./bin/gen-file.js",
